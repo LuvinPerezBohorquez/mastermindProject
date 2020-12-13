@@ -1,0 +1,41 @@
+*****************************************************************************************************************************************
+*****************************************************************************************************************************************
+                                                            MASTERMIND
+                              
+Perez, Luvin / Rodriguez, Jeandelys / Ugarelli, Pamela.
+
+Program description:
+Mastermind is a code-breaking game. A player and the computer will compete to defeat the each other. The computer generates three random colors and the user has to guess them to break the code.
+
+To get the IPO chart and functional decomposition implementation, take a look of the "Documentation.txt" file.
+*****************************************************************************************************************************************
+*****************************************************************************************************************************************
+
+IPO chart
+
+INPUT                                                       PROCESS                                                       OUTPUT
+*********************************************************************************************************************************************
+Receive user's name                      Store the name in a variable called username                       Display a nice greeting message 
+
+*********************************************************************************************************************************************
+Get user option for menu                 Receive user numeric option between 1 and 4, validate              User option is processed to then
+                                         and then send it to a Switch to perform another PROCESS            start the chosen process
+*********************************************************************************************************************************************
+See rules(1)                             Receive option and start the rules method to display the text      Rules are displayed and user
+                                         previously writen on a document                                    will return to main menu
+*********************************************************************************************************************************************
+Play game(2)                             Receive option and will start the game by asking user to prompt    fail: output pins and start over
+1. first color                           three specific colors in order until the game runs 10 times and    win:  display you win message
+2. second color                          the user loses or win                                              lose: display you lose message
+3. third color                                                                                               
+                                                                                                            for any of the possibilities, by the end of the program it will create, update or or just display the scoreboard
+*********************************************************************************************************************************************
+See Highest Score(3)                    Receive option and display the game scoreboard from the created     Will display a suggestion for the
+                                        gameScores.txt file. If it has not been created yet, it will        user to play the game or the prev-
+                                        suggest the user play one game to create one                        iously created file
+                                                                                                            "gameScores.txt"
+*********************************************************************************************************************************************
+Quit(4)                                 Receive option and execute a method to quit the game                Display goodbye message and quit
+*********************************************************************************************************************************************
+
+                                                        THANKS FOR USING MASTERMIND
