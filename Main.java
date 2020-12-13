@@ -1,6 +1,6 @@
 /*
 Group 5 - Mastermind Project
-Authors:  Perez, L. / Rodriguez, J / Ugarelli, P.
+Authors:  Perez, Luvin
 Program description:
 Mastermind is a code-breaking game. A player and the computer will compete to defeat the each other. The computer generates a code of three random colors and the user has to guess them to break it.
 */
